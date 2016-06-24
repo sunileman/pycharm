@@ -15,4 +15,4 @@ docker run -it -v /tmp/.X11-unix/:/tmp/.X11-unix/ -e DISPLAY=YOUR.IP.ADDRESS:0 -
 docker run -it -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v ~/PycharmProjects:/root/PycharmProjects -v ~/.PyCharm40:/root/.PyCharm40 -e DISPLAY=YOUR.IP.ADDRESS:0 --rm sunileman/pycharm
 
 #Bash into container
-docker exec -it <container id> bash
+docker exec -it containerID bash
