@@ -1,0 +1,23 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1280.778" x="640" y="230" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1280.778" x="358" y="211" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1280.778" x="94" y="38" />
+    <location key="FileChooserDialogImpl.0.0.1280.778" x="418" y="138" />
+    <location key="SettingsEditor.0.0.1280.778" x="119" y="39" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.3440.1418" x="308" y="171" />
+    <location key="SettingsEditor.0.0.3440.1418" x="1129" y="523" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1600.648" x="531" y="88" />
+    <size key="com.intellij.ide.util.TipDialog.0.0.1280.778" width="497" height="302" />
+    <size key="GridCell.Tab.0.left.0.0.1280.778" width="1220" height="179" />
+    <size key="GridCell.Tab.0.center.0.0.1280.778" width="1220" height="179" />
+    <size key="GridCell.Tab.0.right.0.0.1280.778" width="1220" height="179" />
+    <size key="GridCell.Tab.0.bottom.0.0.1280.778" width="1220" height="179" />
+    <size key="GridCell.Tab.0.left.0.0.3440.1418" width="1652" height="228" />
+    <size key="GridCell.Tab.0.center.0.0.3440.1418" width="1652" height="228" />
+    <size key="GridCell.Tab.0.right.0.0.3440.1418" width="1652" height="228" />
+    <size key="GridCell.Tab.0.bottom.0.0.3440.1418" width="1652" height="228" />
+    <size key="com.intellij.ide.util.TipDialog.0.0.3440.1418" width="517" height="318" />
+    <size key="com.intellij.ide.util.TipDialog.0.0.1600.648" width="567" height="358" />
+  </component>
+</application>

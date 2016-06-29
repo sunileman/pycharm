@@ -1,0 +1,1382 @@
+2016-06-06 03:36:33,522 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-06 03:36:33,528 [      6]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-06 03:36:33,528 [      6]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-06 03:36:33,529 [      7]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_101-b00 (Oracle Corporation) 
+2016-06-06 03:36:33,529 [      7]   INFO -        #com.intellij.idea.Main - JVM: 24.95-b01 (OpenJDK 64-Bit Server VM) 
+2016-06-06 03:36:33,531 [      9]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-06 03:36:33,564 [     42]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 32 ms 
+2016-06-06 03:36:33,608 [     86]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-06 03:36:34,688 [   1166]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 986 ms 
+2016-06-06 03:36:34,690 [   1168]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-06 03:36:35,082 [   1560]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted 
+2016-06-06 03:36:35,085 [   1563]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-06 03:36:35,160 [   1638]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-06 03:36:35,169 [   1647]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-06 03:36:35,536 [   2014]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 5), rebuilding... 
+2016-06-06 03:36:35,536 [   2014]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2016-06-06 03:36:36,393 [   2871]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-06 03:36:38,545 [   5023]   INFO - tellij.xml.Html5SchemaProvider - HTML5_SCHEMA_LOCATION = /etc/pycharm/lib/pycharm.jar!/resources/html5-schema/html5.rnc 
+2016-06-06 03:36:38,545 [   5023]   INFO - tellij.xml.Html5SchemaProvider - XHTML5_SCHEMA_LOCATION = /etc/pycharm/lib/pycharm.jar!/resources/html5-schema/xhtml5.rnc 
+2016-06-06 03:36:38,545 [   5023]   INFO - tellij.xml.Html5SchemaProvider - CHARS_DTD_LOCATION = /etc/pycharm/lib/pycharm.jar!/resources/html5-schema/html5chars.ent 
+2016-06-06 03:36:38,726 [   5204]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 168 ms 
+2016-06-06 03:36:38,726 [   5204]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-06 03:36:38,865 [   5343]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 4157 ms 
+2016-06-06 03:36:38,880 [   5358]   INFO - .intellij.idea.IdeaApplication - App initialization took 8172 ms 
+2016-06-06 03:36:43,244 [   9722]   WARN - ons.CreateLauncherScriptAction - Unsupported OS/desktop: Linux/ 
+com.intellij.execution.util.ExecUtil$UnsupportedSystemException: Unsupported OS/desktop: Linux/
+	at com.intellij.execution.util.ExecUtil.sudo(ExecUtil.java:294)
+	at com.intellij.execution.util.ExecUtil.sudoAndGetOutput(ExecUtil.java:300)
+	at com.intellij.ide.actions.CreateLauncherScriptAction.createLauncherScript(CreateLauncherScriptAction.java:122)
+	at com.intellij.application.options.InitialConfigurationDialog$8.run(InitialConfigurationDialog.java:425)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:563)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$2.run(CoreProgressManager.java:152)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:402)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:137)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$1.run(ProgressManagerImpl.java:126)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:400)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jetbrains.ide.PooledThreadExecutor$1$1.run(PooledThreadExecutor.java:56)
+2016-06-06 03:37:04,574 [  31052]   INFO - rains.python.sdk.PythonSdkType - Bogus sys.path entry /usr/lib/python2.7/lib-old 
+2016-06-06 03:37:05,200 [  31678]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 356 ms 
+2016-06-06 03:37:05,201 [  31679]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-06 03:37:05,269 [  31747]   INFO - i.vcs.changes.ChangeListWorker - default list not found when copy 
+2016-06-06 03:37:05,269 [  31747]   INFO - i.vcs.changes.ChangeListWorker - default list not found when copy in original object too 
+2016-06-06 03:37:07,566 [  34044]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-06 03:37:07,737 [  34215]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-06 03:37:07,921 [  34399]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 175 ms 
+2016-06-06 03:37:07,925 [  34403]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-06 03:37:08,359 [  34837]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 599 ms 
+2016-06-06 03:37:08,359 [  34837]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1245 files to update 
+2016-06-06 03:37:09,290 [  35768]   INFO - .skeletons.PySkeletonGenerator - Rebuilding builtin skeletons took 1363 ms 
+2016-06-06 03:37:09,293 [  35771]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _bsddb 
+2016-06-06 03:37:09,421 [  35899]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_cn 
+2016-06-06 03:37:09,513 [  35991]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_hk 
+2016-06-06 03:37:09,609 [  36087]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_iso2022 
+2016-06-06 03:37:09,787 [  36265]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_jp 
+2016-06-06 03:37:09,896 [  36374]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_kr 
+2016-06-06 03:37:10,035 [  36513]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_tw 
+2016-06-06 03:37:10,192 [  36670]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _csv 
+2016-06-06 03:37:10,356 [  36834]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ctypes 
+2016-06-06 03:37:10,522 [  37000]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ctypes_test 
+2016-06-06 03:37:10,700 [  37178]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _curses 
+2016-06-06 03:37:10,838 [  37316]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _curses_panel 
+2016-06-06 03:37:10,932 [  37410]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _elementtree 
+2016-06-06 03:37:11,135 [  37613]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _hashlib 
+2016-06-06 03:37:11,287 [  37765]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6679 ms 
+2016-06-06 03:37:11,295 [  37773]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _hotshot 
+2016-06-06 03:37:11,515 [  37993]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _io 
+2016-06-06 03:37:11,696 [  38174]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _json 
+2016-06-06 03:37:11,940 [  38418]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _lsprof 
+2016-06-06 03:37:12,113 [  38591]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _multibytecodec 
+2016-06-06 03:37:12,275 [  38753]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _multiprocessing 
+2016-06-06 03:37:12,370 [  38848]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _sqlite3 
+2016-06-06 03:37:12,518 [  38996]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ssl 
+2016-06-06 03:37:12,686 [  39164]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _testcapi 
+2016-06-06 03:37:12,783 [  39261]   INFO - .skeletons.PySkeletonRefresher - Skeleton for audioop 
+2016-06-06 03:37:12,867 [  39345]   INFO - .skeletons.PySkeletonRefresher - Skeleton for bz2 
+2016-06-06 03:37:13,058 [  39536]   INFO - .skeletons.PySkeletonRefresher - Skeleton for crypt 
+2016-06-06 03:37:13,145 [  39623]   INFO - .skeletons.PySkeletonRefresher - Skeleton for datetime 
+2016-06-06 03:37:13,366 [  39844]   INFO - .skeletons.PySkeletonRefresher - Skeleton for dbm 
+2016-06-06 03:37:13,481 [  39959]   INFO - .skeletons.PySkeletonRefresher - Skeleton for fpectl 
+2016-06-06 03:37:13,636 [  40114]   INFO - .skeletons.PySkeletonRefresher - Skeleton for future_builtins 
+2016-06-06 03:37:13,835 [  40313]   INFO - .skeletons.PySkeletonRefresher - Skeleton for linuxaudiodev 
+2016-06-06 03:37:13,965 [  40443]   INFO - .skeletons.PySkeletonRefresher - Skeleton for mmap 
+2016-06-06 03:37:14,136 [  40614]   INFO - .skeletons.PySkeletonRefresher - Skeleton for nis 
+2016-06-06 03:37:14,257 [  40735]   INFO - .skeletons.PySkeletonRefresher - Skeleton for ossaudiodev 
+2016-06-06 03:37:14,352 [  40830]   INFO - .skeletons.PySkeletonRefresher - Skeleton for parser 
+2016-06-06 03:37:14,469 [  40947]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pyexpat 
+2016-06-06 03:37:14,654 [  41132]   INFO - .skeletons.PySkeletonRefresher - Skeleton for readline 
+2016-06-06 03:37:14,891 [  41369]   INFO - .skeletons.PySkeletonRefresher - Skeleton for resource 
+2016-06-06 03:37:15,048 [  41526]   INFO - .skeletons.PySkeletonRefresher - Skeleton for termios 
+2016-06-06 03:37:15,141 [  41619]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 5850 ms 
+2016-06-06 03:37:15,503 [  41981]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 14 ms 
+2016-06-06 03:37:15,507 [  41985]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-06 03:37:18,885 [  45363]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 10526 ms 
+2016-06-06 03:37:19,204 [  45682]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-06 03:37:19,866 [  46344]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 86 auto-detected files
+Elapsed time on auto-detect: 64 ms 
+2016-06-06 03:37:19,872 [  46350]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-06 03:37:19,880 [  46358]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-06 03:37:20,878 [  47356]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-06 03:37:20,878 [  47356]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-06 03:37:20,878 [  47356]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-06 03:37:20,932 [  47410]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-06 03:37:20,935 [  47413]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-06 03:37:21,100 [  47578]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-06 03:37:21,103 [  47581]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-06 03:37:26,304 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-06 03:37:26,315 [     11]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-06 03:37:26,315 [     11]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-06 03:37:26,316 [     12]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_101-b00 (Oracle Corporation) 
+2016-06-06 03:37:26,316 [     12]   INFO -        #com.intellij.idea.Main - JVM: 24.95-b01 (OpenJDK 64-Bit Server VM) 
+2016-06-06 03:37:26,318 [     14]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-06 03:37:26,360 [     56]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 40 ms 
+2016-06-06 03:37:26,455 [    151]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-06 03:37:27,622 [   1318]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 991 ms 
+2016-06-06 03:37:27,623 [   1319]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-06 03:37:28,037 [   1733]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-06 03:37:28,095 [   1791]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-06 03:37:28,104 [   1800]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-06 03:37:29,279 [   2975]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-06 03:37:29,550 [   3246]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-06 03:37:31,284 [   4980]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 3574 ms 
+2016-06-06 03:37:31,299 [   4995]   INFO - .intellij.idea.IdeaApplication - App initialization took 5409 ms 
+2016-06-06 03:37:33,174 [   6870]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 687 ms 
+2016-06-06 03:37:33,248 [   6944]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 73 ms 
+2016-06-06 03:37:34,088 [   7784]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-06 03:37:34,484 [   8180]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 408 ms 
+2016-06-06 03:37:34,485 [   8181]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 3 files to update 
+2016-06-06 03:37:35,012 [   8708]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 527 ms 
+2016-06-06 03:37:35,256 [   8952]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-06 03:37:37,633 [  11329]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 5236 ms 
+2016-06-06 03:37:42,057 [  15753]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-06 03:37:42,060 [  15756]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-06 03:37:42,184 [  15880]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 114 ms 
+2016-06-06 03:37:42,191 [  15887]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-06 03:37:42,260 [  15956]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 65 ms 
+2016-06-06 03:37:42,400 [  16096]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 14 ms 
+2016-06-06 03:37:42,406 [  16102]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-06 03:37:45,228 [  18924]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2016-06-06 03:37:45,232 [  18928]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-06 03:37:45,246 [  18942]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-06 03:37:45,270 [  18966]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-06 03:37:45,270 [  18966]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-06 03:37:45,271 [  18967]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-06 03:37:45,308 [  19004]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-06 03:37:45,309 [  19005]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-06 03:37:45,336 [  19032]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-06 03:37:45,339 [  19035]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-06 03:45:11,830 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-06 03:45:11,842 [     12]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-06 03:45:11,842 [     12]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-06 03:45:11,842 [     12]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_101-b00 (Oracle Corporation) 
+2016-06-06 03:45:11,843 [     13]   INFO -        #com.intellij.idea.Main - JVM: 24.95-b01 (OpenJDK 64-Bit Server VM) 
+2016-06-06 03:45:11,845 [     15]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-06 03:45:11,888 [     58]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 42 ms 
+2016-06-06 03:45:11,981 [    151]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-06 03:45:13,185 [   1355]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 1034 ms 
+2016-06-06 03:45:13,186 [   1356]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-06 03:45:13,646 [   1816]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-06 03:45:13,712 [   1882]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-06 03:45:13,722 [   1892]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-06 03:45:14,801 [   2971]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-06 03:45:15,086 [   3256]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-06 03:45:16,635 [   4805]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 3363 ms 
+2016-06-06 03:45:16,650 [   4820]   INFO - .intellij.idea.IdeaApplication - App initialization took 5636 ms 
+2016-06-06 03:45:18,540 [   6710]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 705 ms 
+2016-06-06 03:45:18,606 [   6776]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 65 ms 
+2016-06-06 03:45:19,322 [   7492]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-06 03:45:19,788 [   7958]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 479 ms 
+2016-06-06 03:45:20,771 [   8941]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-06 03:45:21,191 [   9361]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 3397 ms 
+2016-06-06 03:45:26,874 [  15044]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-06 03:45:26,876 [  15046]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-06 03:45:27,004 [  15174]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 117 ms 
+2016-06-06 03:45:27,009 [  15179]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-06 03:45:27,093 [  15263]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 75 ms 
+2016-06-06 03:45:27,221 [  15391]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 13 ms 
+2016-06-06 03:45:27,228 [  15398]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-06 03:45:45,119 [  33289]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 7 ms 
+2016-06-06 03:45:45,120 [  33290]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-06 04:05:20,732 [1208902]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-06 04:25:20,733 [2408903]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-06 04:45:20,733 [3608903]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-06 04:49:42,845 [3871015]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /etc/pycharm/helpers/packaging_tool.py list 
+2016-06-06 04:49:42,845 [3871015]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /etc/pycharm/helpers/packaging_tool.py list 
+2016-06-06 04:55:11,958 [4200128]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /etc/pycharm/helpers/packaging_tool.py untar /etc/pycharm/helpers/virtualenv-1.11.6.tar.gz 
+2016-06-06 04:55:12,003 [4200173]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /tmp/tmp7P89yQpycharm-management/virtualenv-1.11.6/virtualenv.py /root/untitled 
+2016-06-06 04:55:13,142 [4201312]   INFO - rains.python.sdk.PythonSdkType - Bogus sys.path entry /root/untitled/lib/python2.7/plat-linux2 
+2016-06-06 04:55:13,142 [4201312]   INFO - rains.python.sdk.PythonSdkType - Bogus sys.path entry /root/untitled/lib/python2.7/lib-tk 
+2016-06-06 04:55:13,142 [4201312]   INFO - rains.python.sdk.PythonSdkType - Bogus sys.path entry /root/untitled/lib/python2.7/lib-old 
+2016-06-06 04:55:13,218 [4201388]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /root/untitled/bin/python 
+2016-06-06 04:55:13,361 [4201531]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 135 ms 
+2016-06-06 04:55:13,362 [4201532]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-06 04:55:13,505 [4201675]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 116 ms 
+2016-06-06 04:55:15,013 [4203183]   INFO - .skeletons.PySkeletonGenerator - Rebuilding builtin skeletons took 1360 ms 
+2016-06-06 04:55:15,092 [4203262]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 76 ms 
+2016-06-06 04:55:15,105 [4203275]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 10 ms 
+2016-06-06 04:55:15,111 [4203281]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 virtualenv at ~/untitled" (/root/untitled/bin/python): /root/.PyCharm40/system/python_stubs/-1515157296 
+2016-06-06 04:55:46,411 [4234581]   INFO - figurations.GeneralCommandLine - Cannot run program "$SPARK_HOME/python" (in directory "/etc/pycharm/helpers"): error=2, No such file or directory 
+java.io.IOException: Cannot run program "$SPARK_HOME/python" (in directory "/etc/pycharm/helpers"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.intellij.execution.configurations.GeneralCommandLine.startProcess(GeneralCommandLine.java:306)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:292)
+	at com.jetbrains.python.sdk.PySdkUtil.getProcessOutput(PySdkUtil.java:115)
+	at com.jetbrains.python.sdk.PySdkUtil.getProcessOutput(PySdkUtil.java:99)
+	at com.jetbrains.python.sdk.PythonSdkType.getSysPathsFromScript(PythonSdkType.java:780)
+	at com.jetbrains.python.sdk.PythonSdkType.getSysPath(PythonSdkType.java:766)
+	at com.jetbrains.python.sdk.PythonSdkType.updateSdkRootsFromSysPath(PythonSdkType.java:647)
+	at com.jetbrains.python.sdk.PythonSdkType$5.run(PythonSdkType.java:544)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:563)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$8.run(CoreProgressManager.java:367)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$2.run(CoreProgressManager.java:152)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:402)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:137)
+	at com.intellij.openapi.application.impl.ApplicationImpl$10$1.run(ApplicationImpl.java:617)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:400)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jetbrains.ide.PooledThreadExecutor$1$1.run(PooledThreadExecutor.java:56)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:187)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 23 more
+2016-06-06 04:55:46,412 [4234582]   WARN - ains.python.sdk.SdkVersionUtil - Cannot run program "$SPARK_HOME/python" (in directory "/etc/pycharm/helpers"): error=2, No such file or directory 
+com.intellij.execution.process.ProcessNotCreatedException: Cannot run program "$SPARK_HOME/python" (in directory "/etc/pycharm/helpers"): error=2, No such file or directory
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:296)
+	at com.jetbrains.python.sdk.PySdkUtil.getProcessOutput(PySdkUtil.java:115)
+	at com.jetbrains.python.sdk.PySdkUtil.getProcessOutput(PySdkUtil.java:99)
+	at com.jetbrains.python.sdk.PythonSdkType.getSysPathsFromScript(PythonSdkType.java:780)
+	at com.jetbrains.python.sdk.PythonSdkType.getSysPath(PythonSdkType.java:766)
+	at com.jetbrains.python.sdk.PythonSdkType.updateSdkRootsFromSysPath(PythonSdkType.java:647)
+	at com.jetbrains.python.sdk.PythonSdkType$5.run(PythonSdkType.java:544)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:563)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$8.run(CoreProgressManager.java:367)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$2.run(CoreProgressManager.java:152)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:402)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:137)
+	at com.intellij.openapi.application.impl.ApplicationImpl$10$1.run(ApplicationImpl.java:617)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:400)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jetbrains.ide.PooledThreadExecutor$1$1.run(PooledThreadExecutor.java:56)
+Caused by: java.io.IOException: Cannot run program "$SPARK_HOME/python" (in directory "/etc/pycharm/helpers"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.intellij.execution.configurations.GeneralCommandLine.startProcess(GeneralCommandLine.java:306)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:292)
+	... 21 more
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:187)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 23 more
+2016-06-06 04:55:46,413 [4234583]   INFO - rains.python.sdk.PythonSdkType - Cannot run program "$SPARK_HOME/python" (in directory "/etc/pycharm/helpers"): error=2, No such file or directory
+Exit code -1 
+2016-06-06 04:55:50,978 [4239148]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 2 ms 
+2016-06-06 04:55:51,035 [4239205]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK $SPARK_HOME/python 
+2016-06-06 04:55:51,035 [4239205]   INFO - .skeletons.PySkeletonRefresher - Could not find skeletons path for SDK path $SPARK_HOME/python 
+2016-06-06 04:55:51,038 [4239208]   INFO - figurations.GeneralCommandLine - Cannot run program "$SPARK_HOME/python" (in directory "/etc/pycharm/helpers"): error=2, No such file or directory 
+java.io.IOException: Cannot run program "$SPARK_HOME/python" (in directory "/etc/pycharm/helpers"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.intellij.execution.configurations.GeneralCommandLine.startProcess(GeneralCommandLine.java:306)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:292)
+	at com.jetbrains.python.sdk.PySdkUtil.getProcessOutput(PySdkUtil.java:115)
+	at com.jetbrains.python.sdk.PySdkUtil.getProcessOutput(PySdkUtil.java:99)
+	at com.jetbrains.python.sdk.PythonSdkType.getSysPathsFromScript(PythonSdkType.java:780)
+	at com.jetbrains.python.sdk.PythonSdkType.getSysPath(PythonSdkType.java:766)
+	at com.jetbrains.python.sdk.PythonSdkUpdater.updateSysPath(PythonSdkUpdater.java:176)
+	at com.jetbrains.python.sdk.PythonSdkUpdater.updateSdk(PythonSdkUpdater.java:155)
+	at com.jetbrains.python.sdk.PythonSdkUpdater$1$1$1.run(PythonSdkUpdater.java:127)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:563)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$2.run(CoreProgressManager.java:152)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:402)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:137)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$1.run(ProgressManagerImpl.java:126)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:400)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jetbrains.ide.PooledThreadExecutor$1$1.run(PooledThreadExecutor.java:56)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:187)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 23 more
+2016-06-06 04:55:51,039 [4239209]   WARN - ains.python.sdk.SdkVersionUtil - Cannot run program "$SPARK_HOME/python" (in directory "/etc/pycharm/helpers"): error=2, No such file or directory 
+com.intellij.execution.process.ProcessNotCreatedException: Cannot run program "$SPARK_HOME/python" (in directory "/etc/pycharm/helpers"): error=2, No such file or directory
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:296)
+	at com.jetbrains.python.sdk.PySdkUtil.getProcessOutput(PySdkUtil.java:115)
+	at com.jetbrains.python.sdk.PySdkUtil.getProcessOutput(PySdkUtil.java:99)
+	at com.jetbrains.python.sdk.PythonSdkType.getSysPathsFromScript(PythonSdkType.java:780)
+	at com.jetbrains.python.sdk.PythonSdkType.getSysPath(PythonSdkType.java:766)
+	at com.jetbrains.python.sdk.PythonSdkUpdater.updateSysPath(PythonSdkUpdater.java:176)
+	at com.jetbrains.python.sdk.PythonSdkUpdater.updateSdk(PythonSdkUpdater.java:155)
+	at com.jetbrains.python.sdk.PythonSdkUpdater$1$1$1.run(PythonSdkUpdater.java:127)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:563)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$2.run(CoreProgressManager.java:152)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:402)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:137)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$1.run(ProgressManagerImpl.java:126)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:400)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jetbrains.ide.PooledThreadExecutor$1$1.run(PooledThreadExecutor.java:56)
+Caused by: java.io.IOException: Cannot run program "$SPARK_HOME/python" (in directory "/etc/pycharm/helpers"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.intellij.execution.configurations.GeneralCommandLine.startProcess(GeneralCommandLine.java:306)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:292)
+	... 21 more
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:187)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 23 more
+2016-06-06 04:55:51,040 [4239210]   INFO - rains.python.sdk.PythonSdkType - Cannot run program "$SPARK_HOME/python" (in directory "/etc/pycharm/helpers"): error=2, No such file or directory
+Exit code -1 
+2016-06-06 04:55:55,655 [4243825]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: $SPARK_HOME/python /etc/pycharm/helpers/packaging_tool.py list 
+2016-06-06 04:55:55,657 [4243827]   INFO - figurations.GeneralCommandLine - Cannot run program "$SPARK_HOME/python" (in directory "$SPARK_HOME"): error=2, No such file or directory 
+java.io.IOException: Cannot run program "$SPARK_HOME/python" (in directory "$SPARK_HOME"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.intellij.execution.configurations.GeneralCommandLine.startProcess(GeneralCommandLine.java:306)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:292)
+	at com.jetbrains.python.packaging.PyPackageManagerImpl.getPythonProcessOutput(PyPackageManagerImpl.java:480)
+	at com.jetbrains.python.packaging.PyPackageManagerImpl.getPythonProcessResult(PyPackageManagerImpl.java:440)
+	at com.jetbrains.python.packaging.PyPackageManagerImpl.getHelperResult(PyPackageManagerImpl.java:429)
+	at com.jetbrains.python.packaging.PyPackageManagerImpl.getPackages(PyPackageManagerImpl.java:279)
+	at com.jetbrains.python.packaging.PyPackageManagerImpl.findPackage(PyPackageManagerImpl.java:315)
+	at com.jetbrains.python.testing.VFSTestFrameworkListener.isTestFrameworkInstalled(VFSTestFrameworkListener.java:135)
+	at com.jetbrains.python.testing.VFSTestFrameworkListener$2.run(VFSTestFrameworkListener.java:104)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:320)
+	at com.intellij.util.ui.update.MergingUpdateQueue.execute(MergingUpdateQueue.java:310)
+	at com.intellij.util.ui.update.MergingUpdateQueue$2.run(MergingUpdateQueue.java:254)
+	at com.intellij.util.ui.UIUtil.invokeLaterIfNeeded(UIUtil.java:2350)
+	at com.intellij.util.ui.update.MergingUpdateQueue.flush(MergingUpdateQueue.java:266)
+	at com.intellij.util.ui.update.MergingUpdateQueue.flush(MergingUpdateQueue.java:227)
+	at com.intellij.util.ui.update.MergingUpdateQueue.run(MergingUpdateQueue.java:217)
+	at com.intellij.util.concurrency.QueueProcessor.runSafely(QueueProcessor.java:238)
+	at com.intellij.util.Alarm$Request$1.run(Alarm.java:351)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:332)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:312)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:745)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:77)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:715)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:569)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:382)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:187)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 36 more
+2016-06-06 04:55:55,658 [4243828]   INFO - sting.VFSTestFrameworkListener - Can't load package list Cannot run program "$SPARK_HOME/python" (in directory "$SPARK_HOME"): error=2, No such file or directory 
+2016-06-06 04:55:55,658 [4243828]   INFO - sting.VFSTestFrameworkListener - Can't load package list Cannot run program "$SPARK_HOME/python" (in directory "$SPARK_HOME"): error=2, No such file or directory 
+2016-06-06 04:55:55,658 [4243828]   INFO - sting.VFSTestFrameworkListener - Can't load package list Cannot run program "$SPARK_HOME/python" (in directory "$SPARK_HOME"): error=2, No such file or directory 
+2016-06-06 04:57:26,483 [4334653]   INFO - packaging.ManagePackagesDialog - Error updating list of installed packages:java.io.IOException: com.intellij.execution.process.ProcessNotCreatedException: Cannot run program "$SPARK_HOME/python" (in directory "$SPARK_HOME"): error=2, No such file or directory 
+2016-06-06 04:58:03,605 [4371775]   INFO - figurations.GeneralCommandLine - Cannot run program "/usr/local/spark/python" (in directory "/etc/pycharm/helpers"): error=13, Permission denied 
+java.io.IOException: Cannot run program "/usr/local/spark/python" (in directory "/etc/pycharm/helpers"): error=13, Permission denied
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.intellij.execution.configurations.GeneralCommandLine.startProcess(GeneralCommandLine.java:306)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:292)
+	at com.jetbrains.python.sdk.PySdkUtil.getProcessOutput(PySdkUtil.java:115)
+	at com.jetbrains.python.sdk.PySdkUtil.getProcessOutput(PySdkUtil.java:99)
+	at com.jetbrains.python.sdk.PythonSdkType.getSysPathsFromScript(PythonSdkType.java:780)
+	at com.jetbrains.python.sdk.PythonSdkType.getSysPath(PythonSdkType.java:766)
+	at com.jetbrains.python.sdk.PythonSdkType.updateSdkRootsFromSysPath(PythonSdkType.java:647)
+	at com.jetbrains.python.sdk.PythonSdkType$5.run(PythonSdkType.java:544)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:563)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$8.run(CoreProgressManager.java:367)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$2.run(CoreProgressManager.java:152)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:402)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:137)
+	at com.intellij.openapi.application.impl.ApplicationImpl$10$1.run(ApplicationImpl.java:617)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:400)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jetbrains.ide.PooledThreadExecutor$1$1.run(PooledThreadExecutor.java:56)
+Caused by: java.io.IOException: error=13, Permission denied
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:187)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 23 more
+2016-06-06 04:58:03,606 [4371776]   WARN - ains.python.sdk.SdkVersionUtil - Cannot run program "/usr/local/spark/python" (in directory "/etc/pycharm/helpers"): error=13, Permission denied 
+com.intellij.execution.process.ProcessNotCreatedException: Cannot run program "/usr/local/spark/python" (in directory "/etc/pycharm/helpers"): error=13, Permission denied
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:296)
+	at com.jetbrains.python.sdk.PySdkUtil.getProcessOutput(PySdkUtil.java:115)
+	at com.jetbrains.python.sdk.PySdkUtil.getProcessOutput(PySdkUtil.java:99)
+	at com.jetbrains.python.sdk.PythonSdkType.getSysPathsFromScript(PythonSdkType.java:780)
+	at com.jetbrains.python.sdk.PythonSdkType.getSysPath(PythonSdkType.java:766)
+	at com.jetbrains.python.sdk.PythonSdkType.updateSdkRootsFromSysPath(PythonSdkType.java:647)
+	at com.jetbrains.python.sdk.PythonSdkType$5.run(PythonSdkType.java:544)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:563)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$8.run(CoreProgressManager.java:367)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$2.run(CoreProgressManager.java:152)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:402)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:137)
+	at com.intellij.openapi.application.impl.ApplicationImpl$10$1.run(ApplicationImpl.java:617)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:400)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jetbrains.ide.PooledThreadExecutor$1$1.run(PooledThreadExecutor.java:56)
+Caused by: java.io.IOException: Cannot run program "/usr/local/spark/python" (in directory "/etc/pycharm/helpers"): error=13, Permission denied
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.intellij.execution.configurations.GeneralCommandLine.startProcess(GeneralCommandLine.java:306)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:292)
+	... 21 more
+Caused by: java.io.IOException: error=13, Permission denied
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:187)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 23 more
+2016-06-06 04:58:03,607 [4371777]   INFO - rains.python.sdk.PythonSdkType - Cannot run program "/usr/local/spark/python" (in directory "/etc/pycharm/helpers"): error=13, Permission denied
+Exit code -1 
+2016-06-06 04:59:40,756 [4468926]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 14 ms 
+2016-06-06 04:59:40,756 [4468926]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 9 files to update 
+2016-06-06 04:59:41,603 [4469773]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 847 ms 
+2016-06-06 05:05:20,734 [4808904]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-06 05:05:47,160 [4835330]   INFO - openapi.editor.impl.EditorImpl - Cache hits:4096, total requests:5934,file:///root/PycharmProjects/hellworld/helloworld.py 
+2016-06-06 05:09:54,368 [5082538]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 36 ms 
+2016-06-06 05:09:54,378 [5082548]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 10 ms 
+2016-06-06 05:09:54,615 [5082785]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 16 ms 
+2016-06-06 05:09:54,664 [5082834]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-06 05:09:54,753 [5082923]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-06 05:09:58,184 [5086354]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 3861 ms 
+2016-06-06 05:14:15,385 [5343555]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 1326 auto-detected files
+Elapsed time on auto-detect: 277 ms 
+2016-06-06 05:14:15,390 [5343560]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-06 05:14:15,397 [5343567]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-06 05:14:15,411 [5343581]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-06 05:14:15,411 [5343581]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-06 05:14:15,412 [5343582]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-06 05:14:15,532 [5343702]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-06 05:14:15,533 [5343703]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-06 05:14:15,546 [5343716]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-06 05:14:15,549 [5343719]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-06 05:14:46,101 [      1]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-06 05:14:46,116 [     16]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-06 05:14:46,116 [     16]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-06 05:14:46,116 [     16]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_101-b00 (Oracle Corporation) 
+2016-06-06 05:14:46,117 [     17]   INFO -        #com.intellij.idea.Main - JVM: 24.95-b01 (OpenJDK 64-Bit Server VM) 
+2016-06-06 05:14:46,119 [     19]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-06 05:14:46,167 [     67]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 47 ms 
+2016-06-06 05:14:46,266 [    166]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-06 05:14:48,668 [   2568]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 2248 ms 
+2016-06-06 05:14:48,668 [   2568]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-06 05:14:49,107 [   3007]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-06 05:14:49,165 [   3065]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-06 05:14:49,173 [   3073]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-06 05:14:50,256 [   4156]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-06 05:14:50,555 [   4455]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-06 05:14:52,273 [   6173]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 3515 ms 
+2016-06-06 05:14:52,286 [   6186]   INFO - .intellij.idea.IdeaApplication - App initialization took 7854 ms 
+2016-06-06 05:14:55,000 [   8900]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 772 ms 
+2016-06-06 05:14:55,064 [   8964]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 64 ms 
+2016-06-06 05:14:56,224 [  10124]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 427 ms 
+2016-06-06 05:14:57,264 [  11164]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-06 05:14:57,482 [  11382]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-06 05:15:02,882 [  16782]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 8694 ms 
+2016-06-06 05:15:03,511 [  17411]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-06 05:15:03,512 [  17412]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-06 05:15:03,655 [  17555]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 134 ms 
+2016-06-06 05:15:03,657 [  17557]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-06 05:15:03,749 [  17649]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 86 ms 
+2016-06-06 05:15:03,965 [  17865]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 14 ms 
+2016-06-06 05:15:03,970 [  17870]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-06 05:15:21,535 [  35435]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 7 ms 
+2016-06-06 05:15:21,536 [  35436]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-06 05:17:56,497 [ 190397]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2016-06-06 05:17:56,503 [ 190403]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-06 05:17:56,510 [ 190410]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-06 05:17:56,529 [ 190429]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-06 05:17:56,529 [ 190429]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-06 05:17:56,529 [ 190429]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-06 05:17:56,694 [ 190594]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-06 05:17:56,696 [ 190596]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-06 05:17:56,710 [ 190610]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-06 05:17:56,715 [ 190615]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-06 05:18:45,796 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-06 05:18:45,812 [     16]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-06 05:18:45,812 [     16]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-06 05:18:45,813 [     17]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_101-b00 (Oracle Corporation) 
+2016-06-06 05:18:45,813 [     17]   INFO -        #com.intellij.idea.Main - JVM: 24.95-b01 (OpenJDK 64-Bit Server VM) 
+2016-06-06 05:18:45,815 [     19]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-06 05:18:45,861 [     65]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 45 ms 
+2016-06-06 05:18:45,963 [    167]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-06 05:18:47,061 [   1265]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 922 ms 
+2016-06-06 05:18:47,062 [   1266]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-06 05:18:47,507 [   1711]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-06 05:18:47,566 [   1770]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-06 05:18:47,575 [   1779]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-06 05:18:48,616 [   2820]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-06 05:18:48,904 [   3108]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-06 05:18:50,671 [   4875]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 3528 ms 
+2016-06-06 05:18:50,680 [   4884]   INFO - .intellij.idea.IdeaApplication - App initialization took 5329 ms 
+2016-06-06 05:18:52,628 [   6832]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 729 ms 
+2016-06-06 05:18:52,709 [   6913]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 80 ms 
+2016-06-06 05:18:53,781 [   7985]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 401 ms 
+2016-06-06 05:18:54,704 [   8908]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-06 05:18:54,882 [   9086]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-06 05:18:59,597 [  13801]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 7736 ms 
+2016-06-06 05:19:00,950 [  15154]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-06 05:19:00,951 [  15155]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-06 05:19:01,102 [  15306]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 118 ms 
+2016-06-06 05:19:01,103 [  15307]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-06 05:19:01,178 [  15382]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 71 ms 
+2016-06-06 05:19:01,315 [  15519]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 17 ms 
+2016-06-06 05:19:01,323 [  15527]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-06 05:19:19,135 [  33339]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 7 ms 
+2016-06-06 05:19:19,135 [  33339]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-06 05:20:41,966 [ 116170]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 4 auto-detected files
+Elapsed time on auto-detect: 3 ms 
+2016-06-06 05:20:41,972 [ 116176]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-06 05:20:41,979 [ 116183]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-06 05:20:41,997 [ 116201]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-06 05:20:41,997 [ 116201]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-06 05:20:41,998 [ 116202]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-06 05:20:42,050 [ 116254]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-06 05:20:42,051 [ 116255]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-06 05:20:42,063 [ 116267]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-06 05:20:42,066 [ 116270]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-06 05:20:49,505 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-06 05:20:49,517 [     12]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-06 05:20:49,517 [     12]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-06 05:20:49,517 [     12]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_101-b00 (Oracle Corporation) 
+2016-06-06 05:20:49,518 [     13]   INFO -        #com.intellij.idea.Main - JVM: 24.95-b01 (OpenJDK 64-Bit Server VM) 
+2016-06-06 05:20:49,520 [     15]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-06 05:20:49,561 [     56]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 40 ms 
+2016-06-06 05:20:49,651 [    146]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-06 05:20:50,859 [   1354]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 1038 ms 
+2016-06-06 05:20:50,860 [   1355]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-06 05:20:51,233 [   1728]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-06 05:20:51,292 [   1787]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-06 05:20:51,300 [   1795]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-06 05:20:52,397 [   2892]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-06 05:20:52,682 [   3177]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-06 05:20:54,440 [   4935]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 3554 ms 
+2016-06-06 05:20:54,459 [   4954]   INFO - .intellij.idea.IdeaApplication - App initialization took 5388 ms 
+2016-06-06 05:20:56,782 [   7277]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 708 ms 
+2016-06-06 05:20:56,847 [   7342]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 64 ms 
+2016-06-06 05:20:57,972 [   8467]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 407 ms 
+2016-06-06 05:20:58,989 [   9484]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-06 05:20:59,161 [   9656]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-06 05:21:02,805 [  13300]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 6772 ms 
+2016-06-06 05:21:05,168 [  15663]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-06 05:21:05,168 [  15663]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-06 05:21:05,292 [  15787]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 114 ms 
+2016-06-06 05:21:05,296 [  15791]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-06 05:21:05,368 [  15863]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 68 ms 
+2016-06-06 05:21:05,552 [  16047]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 16 ms 
+2016-06-06 05:21:05,558 [  16053]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-06 05:21:23,315 [  33810]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 15 ms 
+2016-06-06 05:21:23,316 [  33811]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-06 05:22:00,928 [  71423]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2016-06-06 05:22:00,932 [  71427]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-06 05:22:00,941 [  71436]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-06 05:22:00,955 [  71450]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-06 05:22:00,955 [  71450]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-06 05:22:00,956 [  71451]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-06 05:22:01,001 [  71496]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-06 05:22:01,002 [  71497]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-06 05:22:01,020 [  71515]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-06 05:22:01,022 [  71517]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-13 20:47:21,594 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-13 20:47:21,612 [     18]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-13 20:47:21,612 [     18]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-13 20:47:21,613 [     19]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_101-b00 (Oracle Corporation) 
+2016-06-13 20:47:21,613 [     19]   INFO -        #com.intellij.idea.Main - JVM: 24.95-b01 (OpenJDK 64-Bit Server VM) 
+2016-06-13 20:47:21,618 [     24]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-13 20:47:21,670 [     76]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 51 ms 
+2016-06-13 20:47:21,919 [    325]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-13 20:47:23,412 [   1818]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 1118 ms 
+2016-06-13 20:47:23,413 [   1819]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-13 20:47:24,071 [   2477]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-13 20:47:24,141 [   2547]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-13 20:47:24,151 [   2557]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-13 20:47:25,423 [   3829]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-13 20:47:25,812 [   4218]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-13 20:47:27,789 [   6195]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 4298 ms 
+2016-06-13 20:47:27,805 [   6211]   INFO - .intellij.idea.IdeaApplication - App initialization took 6892 ms 
+2016-06-13 20:47:31,562 [   9968]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 1041 ms 
+2016-06-13 20:47:31,659 [  10065]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 97 ms 
+2016-06-13 20:47:32,895 [  11301]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 475 ms 
+2016-06-13 20:47:34,066 [  12472]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-13 20:47:34,451 [  12857]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-13 20:47:40,243 [  18649]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 9759 ms 
+2016-06-13 20:47:40,543 [  18949]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-13 20:47:40,544 [  18950]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-13 20:47:40,735 [  19141]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 169 ms 
+2016-06-13 20:47:40,738 [  19144]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-13 20:47:40,879 [  19285]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 128 ms 
+2016-06-13 20:47:41,103 [  19509]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 12 ms 
+2016-06-13 20:47:41,110 [  19516]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-13 20:47:58,299 [  36705]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 8 ms 
+2016-06-13 20:47:58,299 [  36705]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-13 20:49:00,289 [  98695]   INFO - figurations.GeneralCommandLine - Cannot run program "/usr/bin/firefox": error=2, No such file or directory 
+java.io.IOException: Cannot run program "/usr/bin/firefox": error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.intellij.execution.configurations.GeneralCommandLine.startProcess(GeneralCommandLine.java:306)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:292)
+	at com.intellij.ide.browsers.BrowserLauncherAppless.doLaunch(BrowserLauncherAppless.java:259)
+	at com.intellij.ide.browsers.BrowserLauncherAppless.doLaunch(BrowserLauncherAppless.java:220)
+	at com.intellij.ide.browsers.BrowserLauncherAppless.browseUsingPath(BrowserLauncherAppless.java:208)
+	at com.intellij.ide.browsers.BrowserLauncherAppless.browseUsingNotSystemDefaultBrowserPolicy(BrowserLauncherAppless.java:134)
+	at com.intellij.ide.browsers.BrowserLauncherImpl.browseUsingNotSystemDefaultBrowserPolicy(BrowserLauncherImpl.java:50)
+	at com.intellij.ide.browsers.BrowserLauncherAppless.browse(BrowserLauncherAppless.java:130)
+	at com.intellij.ide.browsers.BrowserLauncherAppless.openOrBrowse(BrowserLauncherAppless.java:169)
+	at com.intellij.ide.browsers.BrowserLauncherAppless.browse(BrowserLauncherAppless.java:181)
+	at com.intellij.ide.browsers.BrowserLauncherAppless.browse(BrowserLauncherAppless.java:175)
+	at com.intellij.ide.BrowserUtil.browse(BrowserUtil.java:93)
+	at com.intellij.openapi.updateSettings.impl.NewChannelDialog.doOKAction(NewChannelDialog.java:94)
+	at com.intellij.openapi.ui.DialogWrapper$OkAction.doAction(DialogWrapper.java:1821)
+	at com.intellij.openapi.ui.DialogWrapper$DialogWrapperAction.actionPerformed(DialogWrapper.java:1787)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3312)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:77)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:77)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:565)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:382)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:154)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:182)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:221)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:219)
+	at java.awt.Dialog.show(Dialog.java:1082)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$MyDialog.show(DialogWrapperPeerImpl.java:778)
+	at com.intellij.openapi.ui.impl.DialogWrapperPeerImpl.show(DialogWrapperPeerImpl.java:465)
+	at com.intellij.openapi.ui.DialogWrapper.invokeShow(DialogWrapper.java:1614)
+	at com.intellij.openapi.ui.DialogWrapper.show(DialogWrapper.java:1571)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$6.run(UpdateChecker.java:391)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$10.hyperlinkUpdate(UpdateChecker.java:461)
+	at com.intellij.notification.EventLog$NotificationHyperlinkInfo.navigate(EventLog.java:466)
+	at com.intellij.execution.impl.EditorHyperlinkSupport$3.run(EditorHyperlinkSupport.java:142)
+	at com.intellij.execution.impl.EditorHyperlinkSupport$1.mouseClicked(EditorHyperlinkSupport.java:83)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.runMouseClickedCommand(EditorImpl.java:5650)
+	at com.intellij.openapi.editor.impl.EditorImpl$MyMouseAdapter.mouseReleased(EditorImpl.java:5580)
+	at java.awt.Component.processMouseEvent(Component.java:6516)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3312)
+	at java.awt.Component.processEvent(Component.java:6281)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4872)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4698)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:747)
+	at java.awt.EventQueue.access$300(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:706)
+	at java.awt.EventQueue$3.run(EventQueue.java:704)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:77)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.awt.EventQueue$4.run(EventQueue.java:718)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:77)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:717)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:565)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:382)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:187)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 101 more
+2016-06-13 20:59:43,567 [ 741973]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2016-06-13 20:59:43,574 [ 741980]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-13 20:59:43,583 [ 741989]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-13 20:59:43,596 [ 742002]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-13 20:59:43,597 [ 742003]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-13 20:59:43,597 [ 742003]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-13 20:59:43,673 [ 742079]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-13 20:59:43,674 [ 742080]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-13 20:59:43,691 [ 742097]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-13 20:59:43,705 [ 742111]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-13 21:00:28,690 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-13 21:00:28,705 [     15]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-13 21:00:28,705 [     15]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-13 21:00:28,705 [     15]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_101-b00 (Oracle Corporation) 
+2016-06-13 21:00:28,705 [     15]   INFO -        #com.intellij.idea.Main - JVM: 24.95-b01 (OpenJDK 64-Bit Server VM) 
+2016-06-13 21:00:28,707 [     17]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-13 21:00:28,755 [     65]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 46 ms 
+2016-06-13 21:00:28,856 [    166]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-13 21:00:31,043 [   2353]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 1004 ms 
+2016-06-13 21:00:31,044 [   2354]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-13 21:00:31,408 [   2718]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-13 21:00:31,478 [   2788]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-13 21:00:31,487 [   2797]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-13 21:00:32,551 [   3861]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-13 21:00:32,861 [   4171]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-13 21:00:34,614 [   5924]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 3554 ms 
+2016-06-13 21:00:34,630 [   5940]   INFO - .intellij.idea.IdeaApplication - App initialization took 6353 ms 
+2016-06-13 21:00:37,466 [   8776]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 746 ms 
+2016-06-13 21:00:37,534 [   8844]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 68 ms 
+2016-06-13 21:00:38,759 [  10069]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 524 ms 
+2016-06-13 21:00:39,757 [  11067]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-13 21:00:39,943 [  11253]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-13 21:00:44,426 [  15736]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 7748 ms 
+2016-06-13 21:00:45,907 [  17217]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-13 21:00:45,907 [  17217]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-13 21:00:46,035 [  17345]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 118 ms 
+2016-06-13 21:00:46,036 [  17346]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-13 21:00:46,123 [  17433]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 84 ms 
+2016-06-13 21:00:46,285 [  17595]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 18 ms 
+2016-06-13 21:00:46,292 [  17602]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-13 21:01:03,951 [  35261]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 7 ms 
+2016-06-13 21:01:03,951 [  35261]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-13 21:10:30,927 [ 602237]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2016-06-13 21:10:30,932 [ 602242]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-13 21:10:30,948 [ 602258]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-13 21:10:30,961 [ 602271]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-13 21:10:30,961 [ 602271]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-13 21:10:30,962 [ 602272]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-13 21:10:31,024 [ 602334]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-13 21:10:31,025 [ 602335]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-13 21:10:31,039 [ 602349]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-13 21:10:31,042 [ 602352]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-13 21:11:33,007 [      1]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-13 21:11:33,019 [     13]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-13 21:11:33,020 [     14]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-13 21:11:33,020 [     14]   INFO -        #com.intellij.idea.Main - JRE: 1.7.0_101-b00 (Oracle Corporation) 
+2016-06-13 21:11:33,020 [     14]   INFO -        #com.intellij.idea.Main - JVM: 24.95-b01 (OpenJDK 64-Bit Server VM) 
+2016-06-13 21:11:33,022 [     16]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-13 21:11:33,071 [     65]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 47 ms 
+2016-06-13 21:11:33,168 [    162]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-13 21:11:34,891 [   1885]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 1523 ms 
+2016-06-13 21:11:34,892 [   1886]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-13 21:11:35,263 [   2257]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-13 21:11:35,340 [   2334]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-13 21:11:35,350 [   2344]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-13 21:11:36,448 [   3442]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-13 21:11:36,750 [   3744]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-13 21:11:38,570 [   5564]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 3654 ms 
+2016-06-13 21:11:38,589 [   5583]   INFO - .intellij.idea.IdeaApplication - App initialization took 6097 ms 
+2016-06-13 21:11:40,589 [   7583]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 711 ms 
+2016-06-13 21:11:40,659 [   7653]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 70 ms 
+2016-06-13 21:11:41,872 [   8866]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 474 ms 
+2016-06-13 21:11:43,065 [  10059]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-13 21:11:43,345 [  10339]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-13 21:11:48,798 [  15792]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 8961 ms 
+2016-06-13 21:11:51,153 [  18147]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2016-06-13 21:11:51,158 [  18152]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-13 21:11:51,178 [  18172]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-13 21:11:51,196 [  18190]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-13 21:11:51,196 [  18190]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-13 21:11:51,197 [  18191]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-13 21:11:51,279 [  18273]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-13 21:11:51,279 [  18273]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-13 21:11:51,297 [  18291]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-13 21:11:51,309 [  18303]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-22 03:28:26,038 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-22 03:28:26,053 [     15]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-22 03:28:26,053 [     15]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-22 03:28:26,054 [     16]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_91-b14 (Oracle Corporation) 
+2016-06-22 03:28:26,054 [     16]   INFO -        #com.intellij.idea.Main - JVM: 25.91-b14 (OpenJDK 64-Bit Server VM) 
+2016-06-22 03:28:26,056 [     18]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-22 03:28:26,107 [     69]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 50 ms 
+2016-06-22 03:28:26,199 [    161]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-22 03:28:26,674 [    636]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 315 ms 
+2016-06-22 03:28:26,675 [    637]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-22 03:28:27,011 [    973]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-22 03:28:27,063 [   1025]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-22 03:28:27,070 [   1032]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-22 03:28:27,420 [   1382]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-22 03:28:27,627 [   1589]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-22 03:28:28,414 [   2376]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 1722 ms 
+2016-06-22 03:28:28,422 [   2384]   INFO - .intellij.idea.IdeaApplication - App initialization took 2748 ms 
+2016-06-22 03:28:31,325 [   5287]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 722 ms 
+2016-06-22 03:28:31,378 [   5340]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 52 ms 
+2016-06-22 03:28:31,990 [   5952]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 286 ms 
+2016-06-22 03:28:33,016 [   6978]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-22 03:28:33,202 [   7164]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-22 03:28:35,155 [   9117]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 4591 ms 
+2016-06-22 03:28:39,338 [  13300]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-22 03:28:39,340 [  13302]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-22 03:28:39,654 [  13616]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 290 ms 
+2016-06-22 03:28:39,658 [  13620]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-22 03:28:39,744 [  13706]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _crypt 
+2016-06-22 03:28:39,925 [  13887]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _dbus_bindings 
+2016-06-22 03:28:40,423 [  14385]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _dbus_glib_bindings 
+2016-06-22 03:28:40,607 [  14569]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _sqlitecache 
+2016-06-22 03:28:40,831 [  14793]   INFO - .skeletons.PySkeletonRefresher - Skeleton for dl 
+2016-06-22 03:28:40,949 [  14911]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gdbm 
+2016-06-22 03:28:41,059 [  15021]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gi._gi 
+2016-06-22 03:28:41,342 [  15304]   INFO - .skeletons.PySkeletonRefresher - Skeleton for gpgme._gpgme 
+2016-06-22 03:28:41,524 [  15486]   INFO - .skeletons.PySkeletonRefresher - Skeleton for imageop 
+2016-06-22 03:28:41,666 [  15628]   INFO - .skeletons.PySkeletonRefresher - Skeleton for lxml.etree 
+2016-06-22 03:28:42,492 [  16454]   INFO - .skeletons.PySkeletonRefresher - Skeleton for lxml.objectify 
+2016-06-22 03:28:42,708 [  16670]   INFO - .skeletons.PySkeletonRefresher - Skeleton for lzma 
+2016-06-22 03:28:42,894 [  16856]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pycurl 
+2016-06-22 03:28:43,014 [  16976]   INFO - .skeletons.PySkeletonRefresher - Skeleton for rpm._rpm 
+2016-06-22 03:28:43,249 [  17211]   INFO - .skeletons.PySkeletonRefresher - Skeleton for rpm._rpmb 
+2016-06-22 03:28:43,371 [  17333]   INFO - .skeletons.PySkeletonRefresher - Skeleton for rpm._rpms 
+2016-06-22 03:28:43,517 [  17479]   INFO - .skeletons.PySkeletonRefresher - Skeleton for timing 
+2016-06-22 03:28:43,624 [  17586]   INFO - .skeletons.PySkeletonRefresher - Skeleton for xattr 
+2016-06-22 03:28:43,735 [  17697]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 4073 ms 
+2016-06-22 03:28:45,270 [  19232]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 21 ms 
+2016-06-22 03:28:45,520 [  19482]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-22 03:28:45,900 [  19862]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 110 ms 
+2016-06-22 03:28:45,901 [  19863]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 1965 files to update 
+2016-06-22 03:28:51,167 [  25129]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 5267 ms 
+2016-06-22 03:28:57,402 [  31364]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 6 ms 
+2016-06-22 03:28:57,402 [  31364]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-22 03:29:58,351 [  92313]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 155 auto-detected files
+Elapsed time on auto-detect: 63 ms 
+2016-06-22 03:29:58,354 [  92316]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-22 03:29:58,367 [  92329]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-22 03:29:58,379 [  92341]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-22 03:29:58,379 [  92341]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-22 03:29:58,380 [  92342]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-22 03:29:58,538 [  92500]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-22 03:29:58,539 [  92501]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-22 03:29:58,554 [  92516]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-22 03:29:58,568 [  92530]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-22 17:37:16,531 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-22 17:37:16,542 [     11]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-22 17:37:16,542 [     11]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-22 17:37:16,542 [     11]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_91-b14 (Oracle Corporation) 
+2016-06-22 17:37:16,542 [     11]   INFO -        #com.intellij.idea.Main - JVM: 25.91-b14 (OpenJDK 64-Bit Server VM) 
+2016-06-22 17:37:16,544 [     13]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-22 17:37:16,606 [     75]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 61 ms 
+2016-06-22 17:37:16,708 [    177]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-22 17:37:17,149 [    618]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 258 ms 
+2016-06-22 17:37:17,150 [    619]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-22 17:37:17,446 [    915]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-22 17:37:17,511 [    980]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-22 17:37:17,519 [    988]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-22 17:37:17,943 [   1412]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-22 17:37:18,160 [   1629]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-22 17:37:18,966 [   2435]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 1800 ms 
+2016-06-22 17:37:18,972 [   2441]   INFO - .intellij.idea.IdeaApplication - App initialization took 4316 ms 
+2016-06-22 17:37:19,814 [   3283]   INFO - .intellij.idea.IdeaApplication - IdeaApplication.loadProject 
+2016-06-22 17:37:19,815 [   3284]   INFO - ellij.ide.CommandLineProcessor - External command line: 
+2016-06-22 17:37:19,815 [   3284]   INFO - ellij.ide.CommandLineProcessor - Dir: null 
+2016-06-22 17:37:19,815 [   3284]   INFO - ellij.ide.CommandLineProcessor - pip 
+2016-06-22 17:37:19,815 [   3284]   INFO - ellij.ide.CommandLineProcessor - install 
+2016-06-22 17:37:19,815 [   3284]   INFO - ellij.ide.CommandLineProcessor - pybuilder 
+2016-06-22 17:37:19,816 [   3285]   INFO - ellij.ide.CommandLineProcessor - ----- 
+2016-06-22 17:37:26,702 [  10171]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 712 ms 
+2016-06-22 17:37:26,775 [  10244]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 72 ms 
+2016-06-22 17:37:27,016 [  10485]   INFO - roject.impl.ProjectManagerImpl - FW/roots waiting started 
+2016-06-22 17:37:27,069 [  10538]   INFO - roject.impl.ProjectManagerImpl - FW/roots waiting finished 
+2016-06-22 17:37:27,641 [  11110]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 525 ms 
+2016-06-22 17:37:28,973 [  12442]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-22 17:37:29,248 [  12717]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-22 17:37:31,634 [  15103]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 5684 ms 
+2016-06-22 17:37:34,804 [  18273]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-22 17:37:34,808 [  18277]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-22 17:37:35,181 [  18650]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 315 ms 
+2016-06-22 17:37:35,188 [  18657]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-22 17:37:35,201 [  18670]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _bsddb 
+2016-06-22 17:37:35,508 [  18977]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_cn 
+2016-06-22 17:37:35,782 [  19251]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_hk 
+2016-06-22 17:37:35,993 [  19462]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_iso2022 
+2016-06-22 17:37:36,433 [  19902]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_jp 
+2016-06-22 17:37:36,646 [  20115]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_kr 
+2016-06-22 17:37:36,857 [  20326]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _codecs_tw 
+2016-06-22 17:37:37,017 [  20486]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _csv 
+2016-06-22 17:37:37,233 [  20702]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ctypes 
+2016-06-22 17:37:37,438 [  20907]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _curses 
+2016-06-22 17:37:37,621 [  21090]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _curses_panel 
+2016-06-22 17:37:37,803 [  21272]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _elementtree 
+2016-06-22 17:37:37,985 [  21454]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _functools 
+2016-06-22 17:37:38,154 [  21623]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _hashlib 
+2016-06-22 17:37:38,333 [  21802]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _hotshot 
+2016-06-22 17:37:38,590 [  22059]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _io 
+2016-06-22 17:37:38,852 [  22321]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _json 
+2016-06-22 17:37:39,038 [  22507]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _lsprof 
+2016-06-22 17:37:39,240 [  22709]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _multibytecodec 
+2016-06-22 17:37:39,408 [  22877]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _multiprocessing 
+2016-06-22 17:37:39,622 [  23091]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _sqlite3 
+2016-06-22 17:37:39,838 [  23307]   INFO - .skeletons.PySkeletonRefresher - Skeleton for _ssl 
+2016-06-22 17:37:40,138 [  23607]   INFO - .skeletons.PySkeletonRefresher - Skeleton for audioop 
+2016-06-22 17:37:40,293 [  23762]   INFO - .skeletons.PySkeletonRefresher - Skeleton for bz2 
+2016-06-22 17:37:40,493 [  23962]   INFO - .skeletons.PySkeletonRefresher - Skeleton for datetime 
+2016-06-22 17:37:40,746 [  24215]   INFO - .skeletons.PySkeletonRefresher - Skeleton for dbm 
+2016-06-22 17:37:40,933 [  24402]   INFO - .skeletons.PySkeletonRefresher - Skeleton for future_builtins 
+2016-06-22 17:37:41,161 [  24630]   INFO - .skeletons.PySkeletonRefresher - Skeleton for linuxaudiodev 
+2016-06-22 17:37:41,385 [  24854]   INFO - .skeletons.PySkeletonRefresher - Skeleton for mmap 
+2016-06-22 17:37:41,599 [  25068]   INFO - .skeletons.PySkeletonRefresher - Skeleton for nis 
+2016-06-22 17:37:41,756 [  25225]   INFO - .skeletons.PySkeletonRefresher - Skeleton for ossaudiodev 
+2016-06-22 17:37:41,911 [  25380]   INFO - .skeletons.PySkeletonRefresher - Skeleton for parser 
+2016-06-22 17:37:42,078 [  25547]   INFO - .skeletons.PySkeletonRefresher - Skeleton for pyexpat 
+2016-06-22 17:37:42,245 [  25714]   INFO - .skeletons.PySkeletonRefresher - Skeleton for readline 
+2016-06-22 17:37:42,423 [  25892]   INFO - .skeletons.PySkeletonRefresher - Skeleton for resource 
+2016-06-22 17:37:42,631 [  26100]   INFO - .skeletons.PySkeletonRefresher - Skeleton for termios 
+2016-06-22 17:37:42,815 [  26284]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 7620 ms 
+2016-06-22 17:37:44,762 [  28231]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 19 ms 
+2016-06-22 17:37:44,905 [  28374]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-22 17:37:52,804 [  36273]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 6 ms 
+2016-06-22 17:37:52,805 [  36274]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-22 17:47:45,396 [ 628865]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 18 auto-detected files
+Elapsed time on auto-detect: 44 ms 
+2016-06-22 17:47:45,404 [ 628873]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-22 17:47:45,411 [ 628880]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-22 17:47:45,445 [ 628914]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-22 17:47:45,445 [ 628914]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-22 17:47:45,446 [ 628915]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-22 17:47:45,560 [ 629029]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-22 17:47:45,560 [ 629029]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-22 17:47:45,573 [ 629042]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-22 17:47:45,575 [ 629044]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-23 18:02:29,246 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-23 18:02:29,267 [     21]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-23 18:02:29,267 [     21]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-23 18:02:29,267 [     21]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_91-b14 (Oracle Corporation) 
+2016-06-23 18:02:29,268 [     22]   INFO -        #com.intellij.idea.Main - JVM: 25.91-b14 (OpenJDK 64-Bit Server VM) 
+2016-06-23 18:02:29,274 [     28]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-23 18:02:29,352 [    106]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 77 ms 
+2016-06-23 18:02:29,525 [    279]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-23 18:02:30,044 [    798]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 338 ms 
+2016-06-23 18:02:30,045 [    799]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-23 18:02:30,500 [   1254]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-23 18:02:30,555 [   1309]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-23 18:02:30,565 [   1319]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-23 18:02:31,124 [   1878]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-23 18:02:31,469 [   2223]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-23 18:02:32,349 [   3103]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 2285 ms 
+2016-06-23 18:02:32,359 [   3113]   INFO - .intellij.idea.IdeaApplication - App initialization took 5080 ms 
+2016-06-23 18:02:34,221 [   4975]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 897 ms 
+2016-06-23 18:02:34,302 [   5056]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 80 ms 
+2016-06-23 18:02:34,991 [   5745]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 229 ms 
+2016-06-23 18:02:34,997 [   5751]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 3 files to update 
+2016-06-23 18:02:35,232 [   5986]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 235 ms 
+2016-06-23 18:02:36,372 [   7126]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-23 18:02:36,779 [   7533]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-23 18:02:38,966 [   9720]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 5681 ms 
+2016-06-23 18:02:42,589 [  13343]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-23 18:02:42,589 [  13343]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-23 18:02:42,781 [  13535]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 179 ms 
+2016-06-23 18:02:42,782 [  13536]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-23 18:02:42,954 [  13708]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 167 ms 
+2016-06-23 18:02:43,507 [  14261]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 13 ms 
+2016-06-23 18:02:43,511 [  14265]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-23 18:03:00,694 [  31448]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 6 ms 
+2016-06-23 18:03:00,695 [  31449]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-23 18:03:05,352 [  36106]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 26 auto-detected files
+Elapsed time on auto-detect: 44 ms 
+2016-06-23 18:03:05,359 [  36113]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-23 18:03:05,366 [  36120]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-23 18:03:05,395 [  36149]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-23 18:03:05,395 [  36149]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-23 18:03:05,395 [  36149]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-23 18:03:05,482 [  36236]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-23 18:03:05,483 [  36237]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-23 18:03:05,513 [  36267]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-23 18:03:05,520 [  36274]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-24 05:20:49,990 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-24 05:20:50,006 [     16]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-24 05:20:50,006 [     16]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-24 05:20:50,007 [     17]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_91-b14 (Oracle Corporation) 
+2016-06-24 05:20:50,008 [     18]   INFO -        #com.intellij.idea.Main - JVM: 25.91-b14 (OpenJDK 64-Bit Server VM) 
+2016-06-24 05:20:50,009 [     19]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-24 05:20:50,059 [     69]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 48 ms 
+2016-06-24 05:20:50,162 [    172]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-24 05:20:50,586 [    596]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 286 ms 
+2016-06-24 05:20:50,587 [    597]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-24 05:20:50,849 [    859]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-24 05:20:50,903 [    913]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-24 05:20:50,910 [    920]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-24 05:20:51,277 [   1287]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-24 05:20:51,466 [   1476]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-24 05:20:52,186 [   2196]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 1580 ms 
+2016-06-24 05:20:52,193 [   2203]   INFO - .intellij.idea.IdeaApplication - App initialization took 4177 ms 
+2016-06-24 05:20:53,457 [   3467]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 711 ms 
+2016-06-24 05:20:53,517 [   3527]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 59 ms 
+2016-06-24 05:20:54,241 [   4251]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 293 ms 
+2016-06-24 05:20:54,242 [   4252]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 112 files to update 
+2016-06-24 05:20:54,450 [   4460]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-24 05:20:55,333 [   5343]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 1091 ms 
+2016-06-24 05:20:56,187 [   6197]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-24 05:20:57,249 [   7259]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 4542 ms 
+2016-06-24 05:20:59,530 [   9540]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 26 auto-detected files
+Elapsed time on auto-detect: 13 ms 
+2016-06-24 05:20:59,534 [   9544]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-24 05:21:02,725 [  12735]  ERROR - penapi.project.DumbServiceImpl - null 
+java.lang.AssertionError: null
+	at com.intellij.openapi.diagnostic.DefaultLogger.error(DefaultLogger.java:66)
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:134)
+	at com.intellij.util.ui.UIUtil.invokeAndWaitIfNeeded(UIUtil.java:2376)
+	at com.intellij.openapi.project.DumbServiceImpl.getNextTask(DumbServiceImpl.java:429)
+	at com.intellij.openapi.project.DumbServiceImpl.access$1000(DumbServiceImpl.java:52)
+	at com.intellij.openapi.project.DumbServiceImpl$7.run(DumbServiceImpl.java:381)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:563)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$2.run(CoreProgressManager.java:152)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:452)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:402)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:54)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:137)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$1.run(ProgressManagerImpl.java:126)
+	at com.intellij.openapi.application.impl.ApplicationImpl$8.run(ApplicationImpl.java:400)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jetbrains.ide.PooledThreadExecutor$1$1.run(PooledThreadExecutor.java:56)
+Caused by: java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1315)
+	at java.awt.EventQueue.invokeAndWait(EventQueue.java:1296)
+	at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1348)
+	at com.intellij.util.ui.UIUtil.invokeAndWaitIfNeeded(UIUtil.java:2373)
+	... 17 more
+2016-06-24 05:21:02,727 [  12737]  ERROR - penapi.project.DumbServiceImpl - PyCharm Community Edition 4.5.4  Build #PC-141.2569 
+2016-06-24 05:21:02,728 [  12738]  ERROR - penapi.project.DumbServiceImpl - JDK: 1.8.0_91 
+2016-06-24 05:21:02,728 [  12738]  ERROR - penapi.project.DumbServiceImpl - VM: OpenJDK 64-Bit Server VM 
+2016-06-24 05:21:02,728 [  12738]  ERROR - penapi.project.DumbServiceImpl - Vendor: Oracle Corporation 
+2016-06-24 05:21:02,729 [  12739]  ERROR - penapi.project.DumbServiceImpl - OS: Linux 
+2016-06-24 05:21:02,731 [  12741]  ERROR - penapi.project.DumbServiceImpl - Last Action:  
+2016-06-24 05:21:02,825 [  12835]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-24 05:21:02,908 [  12918]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-24 05:21:02,908 [  12918]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-24 05:21:02,909 [  12919]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-24 05:21:02,948 [  12958]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-24 05:21:02,949 [  12959]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-24 05:21:02,970 [  12980]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-24 05:21:02,994 [  13004]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-24 13:29:15,538 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-24 13:29:15,578 [     40]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-24 13:29:15,578 [     40]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-24 13:29:15,579 [     41]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_91-b14 (Oracle Corporation) 
+2016-06-24 13:29:15,579 [     41]   INFO -        #com.intellij.idea.Main - JVM: 25.91-b14 (OpenJDK 64-Bit Server VM) 
+2016-06-24 13:29:15,593 [     55]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-24 13:29:15,769 [    231]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 174 ms 
+2016-06-24 13:29:16,238 [    700]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-24 13:29:17,694 [   2156]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 944 ms 
+2016-06-24 13:29:17,700 [   2162]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-24 13:29:18,935 [   3397]   INFO - ellij.concurrency.JobScheduler - 50 ms execution limit failed for: com.intellij.openapi.progress.impl.CoreProgressManager$1@7306a38c; elapsed time was 55ms 
+2016-06-24 13:29:19,072 [   3534]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-24 13:29:19,289 [   3751]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-24 13:29:19,316 [   3778]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-24 13:29:20,979 [   5441]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-24 13:29:21,985 [   6447]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-24 13:29:23,134 [   7596]   INFO - llij.util.io.PersistentHashMap - Compacting /root/.PyCharm40/system/index/stubs/Stubs 
+2016-06-24 13:29:23,135 [   7597]   INFO - llij.util.io.PersistentHashMap - Live keys:2457, dead keys:2711, read compaction size:0 
+2016-06-24 13:29:23,153 [   7615]   INFO - llij.util.io.PersistentHashMap - Loaded mappings:5ms, keys:2457 
+2016-06-24 13:29:23,474 [   7936]   INFO - llij.util.io.PersistentHashMap - Compacted values for:321ms fragments:2457, newfragments:2457 
+2016-06-24 13:29:23,499 [   7961]   INFO - llij.util.io.PersistentHashMap - Updated mappings:25 ms 
+2016-06-24 13:29:23,509 [   7971]   INFO - llij.util.io.PersistentHashMap - Compacted /root/.PyCharm40/system/index/stubs/Stubs:6293207 bytes into 2343637 bytes in 373ms. 
+2016-06-24 13:29:25,463 [   9925]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 7675 ms 
+2016-06-24 13:29:25,482 [   9944]   INFO - .intellij.idea.IdeaApplication - App initialization took 16905 ms 
+2016-06-24 13:29:30,799 [  15261]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 2985 ms 
+2016-06-24 13:29:31,070 [  15532]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 269 ms 
+2016-06-24 13:29:33,308 [  17770]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 1071 ms 
+2016-06-24 13:29:33,329 [  17791]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 4 files to update 
+2016-06-24 13:29:34,735 [  19197]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-24 13:29:34,755 [  19217]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update done in 1426 ms 
+2016-06-24 13:29:38,168 [  22630]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-24 13:29:41,035 [  25497]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 13456 ms 
+2016-06-24 13:29:42,824 [  27286]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-24 13:29:42,827 [  27289]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-24 13:29:43,743 [  28205]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 863 ms 
+2016-06-24 13:29:43,748 [  28210]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-24 13:29:44,564 [  29026]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 804 ms 
+2016-06-24 13:29:47,042 [  31504]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 33 ms 
+2016-06-24 13:29:47,052 [  31514]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-24 13:29:59,015 [  43477]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 17 ms 
+2016-06-24 13:29:59,030 [  43492]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-24 13:37:38,735 [ 503197]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2016-06-24 13:37:38,740 [ 503202]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-24 13:37:38,751 [ 503213]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-24 13:37:38,774 [ 503236]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-24 13:37:38,774 [ 503236]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-24 13:37:38,775 [ 503237]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-24 13:37:38,886 [ 503348]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-24 13:37:38,887 [ 503349]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-24 13:37:38,900 [ 503362]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-24 13:37:38,909 [ 503371]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-24 17:57:20,049 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-24 17:57:20,072 [     23]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-24 17:57:20,072 [     23]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-24 17:57:20,072 [     23]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_91-b14 (Oracle Corporation) 
+2016-06-24 17:57:20,072 [     23]   INFO -        #com.intellij.idea.Main - JVM: 25.91-b14 (OpenJDK 64-Bit Server VM) 
+2016-06-24 17:57:20,078 [     29]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-24 17:57:20,137 [     88]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 58 ms 
+2016-06-24 17:57:20,331 [    282]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-24 17:57:20,832 [    783]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 319 ms 
+2016-06-24 17:57:20,833 [    784]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-24 17:57:21,273 [   1224]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-24 17:57:21,333 [   1284]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-24 17:57:21,344 [   1295]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-24 17:57:21,847 [   1798]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-24 17:57:22,154 [   2105]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-24 17:57:22,993 [   2944]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 2141 ms 
+2016-06-24 17:57:23,006 [   2957]   INFO - .intellij.idea.IdeaApplication - App initialization took 3557 ms 
+2016-06-24 17:57:25,978 [   5929]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 942 ms 
+2016-06-24 17:57:26,080 [   6031]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 102 ms 
+2016-06-24 17:57:26,839 [   6790]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 438 ms 
+2016-06-24 17:57:28,016 [   7967]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-24 17:57:28,272 [   8223]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-24 17:57:29,144 [   9095]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 4148 ms 
+2016-06-24 17:57:34,117 [  14068]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-24 17:57:34,117 [  14068]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-24 17:57:34,322 [  14273]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 191 ms 
+2016-06-24 17:57:34,324 [  14275]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-24 17:57:34,480 [  14431]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 152 ms 
+2016-06-24 17:57:35,034 [  14985]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 13 ms 
+2016-06-24 17:57:35,039 [  14990]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-24 17:57:52,270 [  32221]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 12 ms 
+2016-06-24 17:57:52,271 [  32222]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-24 17:58:40,271 [  80222]   INFO - on.console.RunIdeConsoleAction - Loading javax.script.* engines... 
+2016-06-24 17:58:40,278 [  80229]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /usr/bin/python2.7 /etc/pycharm/helpers/packaging_tool.py list 
+2016-06-24 17:58:40,279 [  80230]   INFO - on.console.RunIdeConsoleAction - jdk.nashorn.api.scripting.NashornScriptEngineFactory: *.js: ECMAScript/ECMA - 262 Edition 5.1 (Oracle Nashorn/1.8.0_91) 
+2016-06-24 17:58:40,491 [  80442]   INFO - on.console.RunIdeConsoleAction - org.codehaus.groovy.jsr223.GroovyScriptEngineFactory: *.groovy: Groovy/2.3.9 (Groovy Scripting Engine/2.0) 
+2016-06-24 18:05:37,050 [ 497001]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 36 auto-detected files
+Elapsed time on auto-detect: 56 ms 
+2016-06-24 18:05:37,054 [ 497005]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-24 18:05:37,063 [ 497014]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-24 18:05:37,069 [ 497020]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-24 18:05:37,070 [ 497021]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-24 18:05:37,070 [ 497021]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-24 18:05:37,194 [ 497145]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-24 18:05:37,195 [ 497146]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-24 18:05:37,207 [ 497158]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-24 18:05:37,210 [ 497161]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-24 18:06:22,305 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-24 18:06:22,315 [     10]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-24 18:06:22,316 [     11]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-24 18:06:22,316 [     11]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_91-b14 (Oracle Corporation) 
+2016-06-24 18:06:22,316 [     11]   INFO -        #com.intellij.idea.Main - JVM: 25.91-b14 (OpenJDK 64-Bit Server VM) 
+2016-06-24 18:06:22,318 [     13]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-24 18:06:22,366 [     61]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 47 ms 
+2016-06-24 18:06:22,455 [    150]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-24 18:06:22,910 [    605]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 265 ms 
+2016-06-24 18:06:22,911 [    606]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-24 18:06:23,157 [    852]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-24 18:06:23,205 [    900]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-24 18:06:23,212 [    907]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-24 18:06:23,554 [   1249]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-24 18:06:23,739 [   1434]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-24 18:06:24,342 [   2037]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 1419 ms 
+2016-06-24 18:06:24,348 [   2043]   INFO - .intellij.idea.IdeaApplication - App initialization took 2397 ms 
+2016-06-24 18:06:25,714 [   3409]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 723 ms 
+2016-06-24 18:06:25,767 [   3462]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 52 ms 
+2016-06-24 18:06:26,447 [   4142]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 329 ms 
+2016-06-24 18:06:27,682 [   5377]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-24 18:06:27,942 [   5637]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-24 18:06:28,869 [   6564]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 3906 ms 
+2016-06-24 18:06:33,644 [  11339]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-24 18:06:33,644 [  11339]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-24 18:06:33,818 [  11513]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 162 ms 
+2016-06-24 18:06:33,820 [  11515]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-24 18:06:33,976 [  11671]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 152 ms 
+2016-06-24 18:06:34,468 [  12163]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 14 ms 
+2016-06-24 18:06:34,472 [  12167]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-24 18:06:40,206 [  17901]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2016-06-24 18:06:40,212 [  17907]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-24 18:06:40,221 [  17916]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-24 18:06:40,227 [  17922]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-24 18:06:40,227 [  17922]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-24 18:06:40,228 [  17923]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-24 18:06:40,427 [  18122]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-24 18:06:40,428 [  18123]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-24 18:06:40,453 [  18148]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-24 18:06:40,467 [  18162]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-24 18:10:41,085 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-24 18:10:41,097 [     12]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-24 18:10:41,097 [     12]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-24 18:10:41,097 [     12]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_91-b14 (Oracle Corporation) 
+2016-06-24 18:10:41,098 [     13]   INFO -        #com.intellij.idea.Main - JVM: 25.91-b14 (OpenJDK 64-Bit Server VM) 
+2016-06-24 18:10:41,099 [     14]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-24 18:10:41,151 [     66]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 50 ms 
+2016-06-24 18:10:42,763 [   1678]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-24 18:10:44,486 [   3401]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 265 ms 
+2016-06-24 18:10:44,487 [   3402]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-24 18:10:44,772 [   3687]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-24 18:10:44,819 [   3734]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-24 18:10:44,827 [   3742]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-24 18:10:45,226 [   4141]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-24 18:10:45,460 [   4375]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-24 18:10:46,092 [   5007]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 1592 ms 
+2016-06-24 18:10:46,098 [   5013]   INFO - .intellij.idea.IdeaApplication - App initialization took 6998 ms 
+2016-06-24 18:10:47,953 [   6868]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 784 ms 
+2016-06-24 18:10:48,008 [   6923]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 55 ms 
+2016-06-24 18:10:48,722 [   7637]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 357 ms 
+2016-06-24 18:10:49,875 [   8790]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-24 18:10:50,198 [   9113]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-24 18:10:51,354 [  10269]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 4249 ms 
+2016-06-24 18:10:55,914 [  14829]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-24 18:10:55,914 [  14829]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-24 18:10:56,091 [  15006]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 167 ms 
+2016-06-24 18:10:56,092 [  15007]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-24 18:10:56,224 [  15139]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 127 ms 
+2016-06-24 18:10:56,699 [  15614]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 13 ms 
+2016-06-24 18:10:56,709 [  15624]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-24 18:11:05,637 [  24552]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2016-06-24 18:11:05,641 [  24556]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-24 18:11:05,650 [  24565]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-24 18:11:05,677 [  24592]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-24 18:11:05,678 [  24593]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-24 18:11:05,678 [  24593]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-24 18:11:05,900 [  24815]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-24 18:11:05,904 [  24819]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-24 18:11:05,929 [  24844]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-24 18:11:05,931 [  24846]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-24 18:23:41,527 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-24 18:23:41,537 [     10]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-24 18:23:41,538 [     11]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-24 18:23:41,538 [     11]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_91-b14 (Oracle Corporation) 
+2016-06-24 18:23:41,538 [     11]   INFO -        #com.intellij.idea.Main - JVM: 25.91-b14 (OpenJDK 64-Bit Server VM) 
+2016-06-24 18:23:41,540 [     13]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-24 18:23:41,590 [     63]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 49 ms 
+2016-06-24 18:23:41,692 [    165]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-24 18:23:43,189 [   1662]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 242 ms 
+2016-06-24 18:23:43,190 [   1663]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-24 18:23:43,482 [   1955]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-24 18:23:43,533 [   2006]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-24 18:23:43,541 [   2014]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-24 18:23:43,919 [   2392]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-24 18:23:44,105 [   2578]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-24 18:23:44,786 [   3259]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 1578 ms 
+2016-06-24 18:23:44,792 [   3265]   INFO - .intellij.idea.IdeaApplication - App initialization took 3668 ms 
+2016-06-24 18:23:46,678 [   5151]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 692 ms 
+2016-06-24 18:23:46,735 [   5208]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 56 ms 
+2016-06-24 18:23:47,370 [   5843]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 271 ms 
+2016-06-24 18:23:48,692 [   7165]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-24 18:23:48,885 [   7358]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-24 18:23:49,796 [   8269]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 3869 ms 
+2016-06-24 18:23:54,593 [  13066]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-24 18:23:54,594 [  13067]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-24 18:23:54,764 [  13237]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 156 ms 
+2016-06-24 18:23:54,766 [  13239]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-24 18:23:54,870 [  13343]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 102 ms 
+2016-06-24 18:23:55,232 [  13705]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 14 ms 
+2016-06-24 18:23:55,240 [  13713]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-24 18:24:12,752 [  31225]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 6 ms 
+2016-06-24 18:24:12,752 [  31225]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-24 18:24:19,598 [  38071]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2016-06-24 18:24:19,602 [  38075]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-24 18:24:19,608 [  38081]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-24 18:24:19,618 [  38091]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-24 18:24:19,618 [  38091]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-24 18:24:19,618 [  38091]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-24 18:24:19,677 [  38150]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-24 18:24:19,678 [  38151]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-24 18:24:19,697 [  38170]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-24 18:24:19,701 [  38174]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2016-06-24 19:15:56,186 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2016-06-24 19:15:56,206 [     20]   INFO -        #com.intellij.idea.Main - IDE: PyCharm Community Edition (build #PC-141.2569, 28 Aug 2015 00:00) 
+2016-06-24 19:15:56,206 [     20]   INFO -        #com.intellij.idea.Main - OS: Linux (4.4.12-boot2docker, amd64) 
+2016-06-24 19:15:56,206 [     20]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_91-b14 (Oracle Corporation) 
+2016-06-24 19:15:56,207 [     21]   INFO -        #com.intellij.idea.Main - JVM: 25.91-b14 (OpenJDK 64-Bit Server VM) 
+2016-06-24 19:15:56,209 [     23]   INFO -        #com.intellij.idea.Main - JVM Args: -Xbootclasspath/a:/etc/pycharm/bin/../lib/boot.jar -Xms128m -Xmx750m -XX:MaxPermSize=350m -XX:ReservedCodeCacheSize=225m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Dawt.useSystemAAFontSettings=lcd -Djb.vmOptionsFile=/etc/pycharm/bin/pycharm64.vmoptions -XX:ErrorFile=/root/java_error_in_PYCHARM_%p.log -Djb.restart.code=88 -Didea.paths.selector=PyCharm40 -Didea.platform.prefix=PyCharmCore -Didea.no.jre.check=true 
+2016-06-24 19:15:56,315 [    129]   INFO -        #com.intellij.idea.Main - JNA library loaded (64-bit) in 104 ms 
+2016-06-24 19:15:56,454 [    268]   INFO - .intellij.idea.IdeaApplication - WM detected: null 
+2016-06-24 19:15:57,637 [   1451]   INFO - llij.ide.plugins.PluginManager - 11 plugins initialized in 540 ms 
+2016-06-24 19:15:57,639 [   1453]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: CVS Integration (11), Git Integration (8.1), GitHub, IDEA CORE, IPython Notebook (0.1), Python ReStructureText Integration (VERSION), ReStructuredText Support (136.SNAPSHOT), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), hg4idea (10.0) 
+2016-06-24 19:15:58,183 [   1997]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=200; buffer=10; max=739246080 
+2016-06-24 19:15:58,314 [   2128]   INFO - api.vfs.impl.local.FileWatcher - Starting file watcher: /etc/pycharm/bin/fsnotifier64 
+2016-06-24 19:15:58,328 [   2142]   INFO - api.vfs.impl.local.FileWatcher - Native file watcher is operational. 
+2016-06-24 19:15:59,136 [   2950]   INFO - lij.diagnostic.DebugLogManager - Set DEBUG for the following categories: [] 
+2016-06-24 19:15:59,627 [   3441]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2016-06-24 19:16:01,387 [   5201]   INFO - pl.stores.ApplicationStoreImpl - 73 application components initialized in 3724 ms 
+2016-06-24 19:16:01,398 [   5212]   INFO - .intellij.idea.IdeaApplication - App initialization took 5831 ms 
+2016-06-24 19:16:06,993 [  10807]   INFO - ellij.project.impl.ProjectImpl - 99 project components initialized in 1486 ms 
+2016-06-24 19:16:07,130 [  10944]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 135 ms 
+2016-06-24 19:16:09,075 [  12889]   INFO - indexing.UnindexedFilesUpdater - Indexable files iterated in 1030 ms 
+2016-06-24 19:16:12,210 [  16024]   INFO - tartup.impl.StartupManagerImpl - /root/PycharmProjects/hellworld/.idea/misc.xml case-sensitivity: true 
+2016-06-24 19:16:12,855 [  16669]   INFO - lij.tasks.impl.TaskManagerImpl - Updating issues cache (every 20 min) 
+2016-06-24 19:16:16,246 [  20060]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 10869 ms 
+2016-06-24 19:16:16,783 [  20597]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK /usr/bin/python2.7 
+2016-06-24 19:16:16,817 [  20631]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /usr/bin/python2.7 
+2016-06-24 19:16:17,701 [  21515]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 833 ms 
+2016-06-24 19:16:17,731 [  21545]   INFO - .skeletons.PySkeletonRefresher - Home path is /etc/pycharm 
+2016-06-24 19:16:18,500 [  22314]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 755 ms 
+2016-06-24 19:16:21,160 [  24974]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 34 ms 
+2016-06-24 19:16:21,170 [  24984]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK "Python 2.7.3 (/usr/bin/python2.7)" (/usr/bin/python2.7): /root/.PyCharm40/system/python_stubs/-1247972723 
+2016-06-24 19:16:34,397 [  38211]   INFO - ellij.project.impl.ProjectImpl - 16 project components initialized in 12 ms 
+2016-06-24 19:16:34,399 [  38213]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2016-06-24 19:20:29,529 [ 273343]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2016-06-24 19:20:29,536 [ 273350]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2016-06-24 19:20:29,543 [ 273357]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2016-06-24 19:20:29,567 [ 273381]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2016-06-24 19:20:29,569 [ 273383]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2016-06-24 19:20:29,569 [ 273383]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2016-06-24 19:20:29,681 [ 273495]   WARN - api.vfs.impl.local.FileWatcher - Watcher terminated with exit code 0 
+2016-06-24 19:20:29,682 [ 273496]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2016-06-24 19:20:29,699 [ 273513]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2016-06-24 19:20:29,701 [ 273515]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
